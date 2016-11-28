@@ -2,6 +2,9 @@ apply plugin: 'application'
 
 mainClassName = 'com.janitovff.test.TestClass'
 
+configurations.runtime.extendsFrom = []
+
 dependencies {
     compile project(':lib1')
+    runtime project(':lib2')
 }
