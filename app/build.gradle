@@ -6,5 +6,9 @@ android {
 }
 
 dependencies {
-    compile(project(':alib'))
+    compile(project(':alib')) {
+        transitive = false
+    }
+
+    compile project(':libold')
 }
