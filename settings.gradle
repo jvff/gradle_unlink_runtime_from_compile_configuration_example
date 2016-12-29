@@ -1,2 +1,3 @@
+include ':alib'
 include ':libnew'
 include ':libold'
