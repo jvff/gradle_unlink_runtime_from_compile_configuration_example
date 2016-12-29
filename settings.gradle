@@ -1,3 +1,4 @@
+include ':app'
 include ':alib'
 include ':libnew'
 include ':libold'
